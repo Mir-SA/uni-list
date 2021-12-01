@@ -7,6 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 25%;
+  height: 120px;
+  justify-content: space-evenly;
+}
+
+.details {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+input,
+select {
+  padding: .25rem;
+  margin-bottom: .5rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
